@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nurmuhammad Mominov - Portfolio</title>
+    <meta name="description" content="Nurmuhammad Mominov - Computer Science Student & Developer">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-animation">
+        <div class="grid-lines"></div>
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="blob blob3"></div>
+    </div>
+
+    <div class="top-bar">
+        <div class="logo">&lt;NM/&gt;</div>
+        
+        <ul class="desktop-nav-list">
+            <li><a href="#" class="active" data-page="home" data-i18n="nav.home">HOME</a></li>
+            <li><a href="#" data-page="about" data-i18n="nav.about">ABOUT</a></li>
+            <li><a href="#" data-page="skills" data-i18n="nav.skills">SKILLS</a></li>
+            <li><a href="#" data-page="projects" data-i18n="nav.projects">PROJECTS</a></li>
+            <li><a href="#" data-page="contact" data-i18n="nav.contact">CONTACT</a></li>
+        </ul>
+        
+        <div class="nav-controls">
+            <select id="languageSelector" class="language-selector">
+                <option value="en">EN</option>
+                <option value="uz">UZ</option>
+                <option value="ru">RU</option>
+                <option value="tr">TR</option>
+            </select>
+            <div class="theme-switch" id="themeSwitch"></div>
+        </div>
+    </div>
+
+    <div class="mobile-nav">
+        <ul class="mobile-nav-items">
+            <li><a href="#" class="active" data-page="home" data-i18n="nav.home">HOME</a></li>
+            <li><a href="#" data-page="about" data-i18n="nav.about">ABOUT</a></li>
+            <li><a href="#" data-page="skills" data-i18n="nav.skills">SKILLS</a></li>
+            <li><a href="#" data-page="projects" data-i18n="nav.projects">PROJECTS</a></li>
+            <li><a href="#" data-page="contact" data-i18n="nav.contact">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div id="home" class="page">
+        <div class="container">
+            <div class="hero">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <h1 class="glitch">NURMUHAMMAD<br>MOMINOV</h1>
+                        <p class="typing-effect" data-i18n="hero.subtitle">&lt; Computer Science Student /&gt;</p>
+                        <p class="hero-desc" data-i18n="hero.description">
+                            Foundation year student at Westminster International University in Tashkent. I transform ideas into elegant code, blending creativity with logic to craft digital experiences that make a real impact.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#" class="btn btn-primary" data-page="projects" data-i18n="hero.viewProjects">VIEW PROJECTS</a>
+                            <a href="#" class="btn btn-outline" data-page="contact" data-i18n="hero.getInTouch">GET IN TOUCH</a>
+                        </div>
+                    </div>
+                    <div class="hero-card">
+                        <div class="card-stat">
+                            <div class="card-stat-number">7.0</div>
+                            <div class="card-stat-label" data-i18n="hero.ieltsScore">IELTS Score</div>
+                        </div>
+                        <div class="card-stat">
+                            <div class="card-stat-number">CIFS</div>
+                            <div class="card-stat-label" data-i18n="hero.foundationStudies">Foundation Studies</div>
+                        </div>
+                        <div class="card-stat">
+                            <div class="card-stat-number">02+</div>
+                            <div class="card-stat-label" data-i18n="hero.projectsBuilt">Projects Built</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="page hidden">
+        <div class="container">
+            <div class="section">
+                <div class="section-header">
+                    <p class="section-tag" data-i18n="about.tag">ABOUT ME</p>
+                    <h2 class="section-title" data-i18n="about.title">MY JOURNEY</h2>
+                </div>
+
+                <div class="glass-grid">
+                    <div class="glass-card">
+                        <h3 data-i18n="about.education.title">🎓 EDUCATION</h3>
+                        <p data-i18n="about.education.p1">
+                            Currently enrolled in the <strong>Certificate in International Foundation Studies (CIFS)</strong> program at <strong>Westminster International University in Tashkent</strong>, building a solid foundation before pursuing my Bachelor's degree in Computer Science.
+                        </p>
+                        <p data-i18n="about.education.p2">
+                            This foundation year is about transformation—developing the mindset and skills needed to thrive in the tech industry.
+                        </p>
+                    </div>
+
+                    <div class="glass-card">
+                        <h3 data-i18n="about.mission.title">🎯 MISSION</h3>
+                        <p data-i18n="about.mission.p1">
+                            My passion lies at the intersection of <strong>artificial intelligence (AI), machine learning (ML), software engineering, and game development</strong>. I'm fascinated by how elegant code creates beautiful, functional experiences.
+                        </p>
+                        <p data-i18n="about.mission.p2">
+                            <strong>Goal:</strong> To become a versatile software engineer who combines technical expertise with creative innovation—building products that inspire.
+                        </p>
+                    </div>
+
+                    <div class="glass-card">
+                        <h3 data-i18n="about.modules.title">📚 MODULES</h3>
+                        <p data-i18n="about.modules.list">
+                            <strong>• Critical Thinking & Citizenship</strong><br>
+                            <strong>• Professional Skills & Employability</strong><br>
+                            <strong>• Academic Communication Skills</strong><br>
+                            <strong>• Quantitative Methods</strong><br>
+                            <strong>• Visual Programming</strong><br>
+                            <strong>• Essential Web</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="page hidden">
+        <div class="container">
+            <div class="section">
+                <div class="section-header">
+                    <p class="section-tag" data-i18n="skills.tag">SKILLS</p>
+                    <h2 class="section-title" data-i18n="skills.title">MY SKILLS</h2>
+                </div>
+
+                <div class="skills-hex-grid">
+                    <div class="hex-container">
+                        <div class="hexagon">
+                            <div class="hex-icon">🐍</div>
+                            <div class="hex-title" data-i18n="skills.list.python">PYTHON (Basics)</div>
+                        </div>
+                    </div>
+                    <div class="hex-container">
+                        <div class="hexagon">
+                            <div class="hex-icon">🌙</div>
+                            <div class="hex-title" data-i18n="skills.list.lua">LUA (Basics)</div>
+                        </div>
+                    </div>
+                    <div class="hex-container">
+                        <div class="hexagon">
+                            <div class="hex-icon">🌐</div>
+                            <div class="hex-title" data-i18n="skills.list.webDev">WEB DEV (Basics)</div>
+                        </div>
+                    </div>
+                    <div class="hex-container">
+                        <div class="hexagon">
+                            <div class="hex-icon">💡</div>
+                            <div class="hex-title" data-i18n="skills.list.criticalThinking">CRITICAL THINKING</div>
+                        </div>
+                    </div>
+                    <div class="hex-container">
+                        <div class="hexagon">
+                            <div class="hex-icon">🔍</div>
+                            <div class="hex-title" data-i18n="skills.list.problemSolving">PROBLEM SOLVING</div>
+                        </div>
+                    </div>
+                    <div class="hex-container">
+                        <div class="hexagon">
+                            <div class="hex-icon">📊</div>
+                            <div class="hex-title" data-i18n="skills.list.analyticalSkills">ANALYTICAL SKILLS</div>
+                        </div>
+                    </div>
+                    <div class="hex-container">
+                        <div class="hexagon">
+                            <div class="hex-icon">♟️</div>
+                            <div class="hex-title" data-i18n="skills.list.strategicThinking">STRATEGIC THINKING</div>
+                        </div>
+                    </div>
+                    <div class="hex-container">
+                        <div class="hexagon">
+                            <div class="hex-icon">🔄</div>
+                            <div class="hex-title" data-i18n="skills.list.adaptability">ADAPTABILITY</div>
+                        </div>
+                    </div>
+                    <div class="hex-container">
+                        <div class="hexagon">
+                            <div class="hex-icon">🎨</div>
+                            <div class="hex-title" data-i18n="skills.list.creativeThinking">CREATIVE THINKING</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-header" style="margin-top: 6rem;">
+                    <p class="section-tag" data-i18n="languages.tag">LANGUAGES</p>
+                    <h2 class="section-title" data-i18n="languages.title">GLOBAL</h2>
+                </div>
+
+                <div class="lang-badges">
+                    <div class="lang-badge">
+                        <span class="lang-flag">🇺🇿</span>
+                        <h4 data-i18n="languages.list.uzbek.name">UZBEK</h4>
+                        <p data-i18n="languages.list.uzbek.level">NATIVE</p>
+                    </div>
+                    <div class="lang-badge">
+                        <span class="lang-flag">🇬🇧</span>
+                        <h4 data-i18n="languages.list.english.name">ENGLISH</h4>
+                        <p data-i18n="languages.list.english.level">IELTS 7.0</p>
+                    </div>
+                    <div class="lang-badge">
+                        <span class="lang-flag">🇹🇷</span>
+                        <h4 data-i18n="languages.list.turkish.name">TURKISH</h4>
+                        <p data-i18n="languages.list.turkish.level">CONVERSATIONAL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="page hidden">
+        <div class="container">
+            <div class="section">
+                <div class="section-header">
+                    <p class="section-tag" data-i18n="projects.tag">PROJECTS</p>
+                    <h2 class="section-title" data-i18n="projects.title">MY WORK</h2>
+                </div>
+
+                <div class="terminal-grid">
+                    <div class="terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-dot"></div>
+                            <div class="terminal-dot"></div>
+                            <div class="terminal-dot"></div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">$ <span>npm run dev</span></div>
+                            <div class="terminal-line">$ <span data-i18n="projects.portfolio.line1">Building project...</span></div>
+                            <div class="terminal-line">$ <span data-i18n="projects.portfolio.line2">✓ Compiled successfully</span></div>
+                            
+                            <h3 class="project-title" data-i18n="projects.portfolio.title">PORTFOLIO WEBSITE</h3>
+                            <p class="project-desc" data-i18n="projects.portfolio.description">
+                                A modern, fully responsive portfolio built from scratch using HTML, CSS, and JavaScript. Features smooth animations, dark mode toggle, and mobile-first design showcasing web fundamentals and UI/UX principles.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-dot"></div>
+                            <div class="terminal-dot"></div>
+                            <div class="terminal-dot"></div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">$ <span>love .</span></div>
+                            <div class="terminal-line">$ <span data-i18n="projects.pong.line1">Loading game...</span></div>
+                            <div class="terminal-line">$ <span data-i18n="projects.pong.line2">✓ Game initialized</span></div>
+                            
+                            <h3 class="project-title" data-i18n="projects.pong.title">PONG GAME</h3>
+                            <p class="project-desc" data-i18n="projects.pong.description">
+                                Classic Pong game recreated using Lua and LÖVE2D framework. Implemented real-time collision detection, smooth paddle physics, and AI opponent logic demonstrating game development fundamentals.
+                            </p>
+                            <a href="game/pong.zip" class="project-btn" download>
+                                <span>📥</span>
+                                <span data-i18n="projects.pong.downloadBtn">DOWNLOAD</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="margin-top: 4rem; padding: 3rem; background: rgba(0, 255, 245, 0.05); border-radius: 20px; border: 2px solid rgba(0, 255, 245, 0.2); text-align: center;">
+                    <p style="font-size: 1.3rem; color: var(--text-dim); font-family: 'JetBrains Mono', monospace;">
+                        <span style="color: var(--primary);" data-i18n="projects.moreComing">// MORE PROJECTS COMING SOON</span><br>
+                        <span data-i18n="projects.stayTuned">Stay tuned for exciting updates as I continue to expand my skills! 🚀</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="page hidden">
+        <div class="container">
+            <div class="section">
+                <div class="section-header">
+                    <p class="section-tag" data-i18n="contact.tag">CONTACT</p>
+                    <h2 class="section-title" data-i18n="contact.title">LET'S CONNECT</h2>
+                </div>
+
+                <div class="contact-holo">
+                    <h2 data-i18n="contact.heading">GET IN TOUCH</h2>
+                    <p data-i18n="contact.description">
+                        Got an idea? Want to collaborate? Let's build something amazing together!
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:muhammed29930@gmail.com" class="contact-link">
+                            <span>📧</span>
+                            <span data-i18n="contact.emailBtn">EMAIL ME</span>
+                        </a>
+                        <a href="https://linkedin.com/in/nurmuhammad-mominov-b37936384" target="_blank" class="contact-link">
+                            <span>💼</span>
+                            <span data-i18n="contact.linkedinBtn">LINKEDIN</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
