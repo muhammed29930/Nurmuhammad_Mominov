@@ -1,0 +1,1 @@
+Hi this is my Personal Portfolio as a student I tried my best on doing this and I am proud of it. (THIS TOOK SO LONG MORE THAN IT SHOULD :D and translations between the languages I just used ai I was too busy to write them over)
