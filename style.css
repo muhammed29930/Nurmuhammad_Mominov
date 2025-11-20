@@ -45,6 +45,11 @@ body {
     overflow-x: hidden;
 }
 
+h1, h2, h3, h4, h5, h6, p, span, a, li {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
 /* Animated Background */
 .bg-animation {
     position: fixed;
@@ -437,6 +442,7 @@ body.light-mode .theme-switch::before {
     gap: 1.5rem;
     flex-wrap: wrap;
     width: 100%;
+    ustify-content: center;
 }
 
 .btn {
@@ -453,6 +459,7 @@ body.light-mode .theme-switch::before {
     letter-spacing: 1px;
     box-sizing: border-box;
     min-width: 0;
+    text-align: center;
 }
 
 .btn-primary {
@@ -721,6 +728,9 @@ body.light-mode .theme-switch::before {
     position: relative;
     z-index: 1;
     font-family: 'JetBrains Mono', monospace;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
 }
 
 /* Language Badges */
@@ -882,6 +892,7 @@ body.light-mode .theme-switch::before {
     color: var(--text-dim);
     line-height: 1.8;
     margin-bottom: 2rem;
+    line-height: 1.6;
 }
 
 .project-btn {
@@ -1141,4 +1152,5 @@ body.light-mode .theme-switch::before {
         opacity: 1;
         transform: perspective(1000px) rotateX(0deg);
     }
+
 }
